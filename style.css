@@ -1,0 +1,74 @@
+.Menu  {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    margin: 0px;
+    background-color: #f7f2f2
+}
+
+.bodyimg  {
+    position: relative;
+    text-align: center;
+}
+
+.title  {
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+
+.paragraph  {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 200px;
+    text-align: center;
+}
+
+.grid  {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+
+.origami {
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family: fantasy;
+}
+
+.origami:hover{
+    transform: scale(1.2);
+}
+
+a:link{
+    color:blue
+}
+a:visited{
+    color:purple
+}
